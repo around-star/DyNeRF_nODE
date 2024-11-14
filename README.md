@@ -1,6 +1,6 @@
 # DyNeRF_nODE
 
-## Single Trajectory Reconstruction
+## Reconstruction + Extrapolation
 
 ## Generalizing across different friction values
 
