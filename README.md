@@ -52,18 +52,18 @@ We tackle the problem of reconstruction and modeling of the underlying dynamics 
 <div style="display: flex; justify-content: space-between;">
   <figure style="text-align: center;">
     <img src="https://github.com/user-attachments/assets/c0900048-a163-43fc-bcf2-4537c482cb0e" alt="train_pendulum" width="300" />
-    <figcaption style="font-size: 14px; margin-top: 5px;">0.03 friction</figcaption>
+    <figcaption style="font-size: 14px; margin-top: 5px;">0.03</figcaption>
   </figure>
 
   <figure style="text-align: center;">
     <img src="https://github.com/user-attachments/assets/b103b483-e507-499b-8b3b-66649fdfa0a1" alt="Pendulum_extrapolation" width="300" />
-    <figcaption style="font-size: 14px; margin-top: 5px;">0.25 friction</figcaption>
+    <figcaption style="font-size: 14px; margin-top: 5px;">0.25</figcaption>
   </figure>
 
   <figure style="text-align: center;">
     <img src="https://github.com/user-attachments/assets/2c5e3dbc-635e-4466-987b-ee4f4b1d94ff" alt="Pendulum_extrapolation" width="300" />
   </figure>
-  <figcaption style="font-size: 14px; margin-top: 5px;">0.35 friction</figcaption>
+  <figcaption style="font-size: 14px; margin-top: 5px;">0.35</figcaption>
 </div>
 
 
