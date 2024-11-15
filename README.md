@@ -119,7 +119,7 @@ We curate three different deterministic scenes with different number of stable p
 
 </div>
 
-> **Top Left:** -0.03 radians &ensp; **Top Right** 0.4 radians  &ensp;  **Bottom Left:** -0.7 radians &ensp; **Bottom Right:** 0.7 radians
+> Novel generations from unseen starting angles.**Top Left:** -0.03 radians &ensp; **Top Right** 0.4 radians  &ensp;  **Bottom Left:** -0.7 radians &ensp; **Bottom Right:** 0.7 radians
 
  ### Scene 2
 <!-- Generalization Ball Bowl -->
