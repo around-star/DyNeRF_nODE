@@ -173,6 +173,6 @@ We curate three different deterministic scenes with different number of stable p
 
 > **Left:** Divergence Plot of Scene 2. The sink represents the stable point in the nODE where the ball in the bowl comes to rest
 > 
-> **Right:** Latent and Divergence Plot of Scene 3. The two sinks represent the two stable points in the nODE corresponding to the two troughs, where the ball rolls down and comes to rest. The latent plot on top of it corresponds to the trajectory of the ball. We see a bifurcation point (which represents the position near the top of the hill), from where the latents move towards either sinks.
+> **Right:** Latent and Divergence Plot of Scene 3. The two sinks represent the two stable points in the nODE corresponding to the two troughs, where the ball rolls down and comes to rest. The latent plot on top of it corresponds to the trajectories of the ball. We see a bifurcation point (which represents the position near the top of the hill), from where the latents move towards either sinks.
 
 
