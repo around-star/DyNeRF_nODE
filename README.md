@@ -7,11 +7,19 @@ We tackle the problem of reconstruction and modeling of the underlying dynamics 
 
 ## Reconstruction + Extrapolation
 
-https://github.com/user-attachments/assets/54efa38f-3d1a-40b4-9331-9881fafb7be5
 
-https://github.com/user-attachments/assets/2b19a344-3be2-4622-8bdf-0bcfcdb6a707
+<div style="display: flex; justify-content: space-between;">
+  <figure style="text-align: center;">
+    <img src="https://github.com/user-attachments/assets/02d828f4-222c-46a5-948f-9f3809833e6f" alt="train_pendulum" width="300" />
+    <figcaption style="font-size: 14px; margin-top: 5px;">Training Video</figcaption>
+  </figure>
 
-![Pendulum_extrapolation](https://github.com/user-attachments/assets/9c42bdb2-b872-43e9-8e70-9095cbf4aa91)
+  <figure style="text-align: center;">
+    <img src="https://github.com/user-attachments/assets/9c42bdb2-b872-43e9-8e70-9095cbf4aa91" alt="Pendulum_extrapolation" width="300" />
+    <figcaption style="font-size: 14px; margin-top: 5px;">Reconstruction + Extrapolation</figcaption>
+  </figure>
+</div>
+
 
 
 
