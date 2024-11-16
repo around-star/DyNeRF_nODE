@@ -60,7 +60,7 @@ We train the our model on a posed monocular video of a deterministic scene. Our 
 
 ## Generalizing across different physical parameters
 
-We train our model on few trajectories with same initial conditions and different values of the physical parameters (damping, friction) of the scene. Our model manages to generalizes across unseen values of the physical parameters.
+We train our model on a few trajectories with varying values of the physical parameters (damping, friction) of the scene, while keeping the initial conditions the same. Our model successfully generalizes to unseen values of the physical parameters and generates novel trajectories.
 
 ### Scene 1
 
@@ -100,7 +100,7 @@ We train our model on few trajectories with same initial conditions and differen
 
 ## Generalizing across different initial conditions
 
-We train our model on few trajectories with different initial conditions. Our model manages to generalize the scene across unseen and novel initial conditions.
+We train our model on a few trajectories with different initial conditions. Our model successfully generalizes to unseen initial conditions and generates novel trajectories.
 
 ### Scene 1
 <!-- Generalization Pendulum -->
