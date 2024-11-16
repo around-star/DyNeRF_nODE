@@ -104,7 +104,7 @@ We train our model on a few trajectories with varying values of the physical par
 
 ## Generalizing across different initial conditions
 
-We train our model on a few trajectories with different initial conditions (i.e. positions and velocities). Our model generalizes to unseen initial conditions and generates novel trajectories.
+We train our model on a few trajectories with different initial conditions (i.e. positions and velocities), while keeping the physical parameter the same.. Our model generalizes to unseen initial conditions and generates novel trajectories.
 
 ### Scene 1
 <!-- Generalization Pendulum -->
