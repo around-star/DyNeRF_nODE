@@ -6,7 +6,7 @@ We tackle the problem of 4D reconstruction and modeling of the underlying dynami
 * Generalizes across different physical parameters (friction) of the scene
 * Generalizes across different initial condition (position, velocity) of the scene
 
-We curate three different deterministic scenes with different number of stable points for our experiments.
+We curate three deterministic scenes with different number of stable points for our experiments.
 * **Scene1:** Pendulum (1 stable point)
 * **Scene2:** Ball in a bowl (1 stable point)
 * **Scene3:** Ball in a hill (2 stable points)
@@ -26,6 +26,8 @@ We curate three different deterministic scenes with different number of stable p
     <figcaption style="font-size: 14px; margin-top: 5px;">Reconstruction + Extrapolation</figcaption>
   </figure>
 </div>-->
+
+We train the our model on a posed monocular video of a deterministic scene. Our model not only reconstructs the scene, but also extrapolates beyond the seen trajectory.
 
 ### Scene 1
 <!-- Single Trajectory Pendulum -->
@@ -58,6 +60,7 @@ We curate three different deterministic scenes with different number of stable p
 
 ## Generalizing across different physical parameters
 
+We train our model on few trajectories with same initial conditions and different values of the physical parameters (damping, friction) of the scene. Our model manages to generalizes across unseen values of the physical parameters.
 
 ### Scene 1
 
@@ -96,6 +99,8 @@ We curate three different deterministic scenes with different number of stable p
 > Novel generations on unseen friction values.  **Left:** 0.03 &ensp; **Centre:** 0.25  &ensp;  **Right:** 0.35
 
 ## Generalizing across different initial conditions
+
+We train our model on few trajectories with different initial conditions. Our model manages to generalize the scene across unseen and novel initial conditions.
 
 ### Scene 1
 <!-- Generalization Pendulum -->
