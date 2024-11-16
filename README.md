@@ -96,11 +96,11 @@ We train our model on a few trajectories with varying values of the physical par
   </figure>
 </div>
 
-> Novel generations on unseen friction values.  **Left:** 0.03 &ensp; **Centre:** 0.25  &ensp;  **Right:** 0.35
+> Novel generations on unseen friction values.  **Left:** 0.03 &ensp; **Center:** 0.25  &ensp;  **Right:** 0.35
 
 ## Generalizing across different initial conditions
 
-We train our model on a few trajectories with different initial conditions. Our model generalizes to unseen initial conditions and generates novel trajectories.
+We train our model on a few trajectories with different initial conditions (i.e. positions and velocities). Our model generalizes to unseen initial conditions and generates novel trajectories.
 
 ### Scene 1
 <!-- Generalization Pendulum -->
@@ -147,7 +147,7 @@ We train our model on a few trajectories with different initial conditions. Our 
   </figure>
 </div>
 
-> Novel generations from unseen starting points
+> Novel generations from unseen initial positions
 
 ### Scene 3
 <!-- Generalization Ball Hill -->
@@ -162,7 +162,24 @@ We train our model on a few trajectories with different initial conditions. Our 
   </figure>
 </div>
 
-> Novel generations from unseen starting points
+> Novel generations from unseen intial positions
+
+<div style="display: flex; justify-content: space-between;">
+  <figure style="text-align: center;">
+    <img src="https://github.com/user-attachments/assets/7fffc439-c694-4c89-8e21-d3aefaee880f" alt="train_pendulum" width="250" />
+  </figure>
+
+  <figure style="text-align: center;">
+    <img src="https://github.com/user-attachments/assets/b31e9799-f2b0-4bab-a821-7c5f2d0b68a0" alt="Pendulum_extrapolation" width="250" />
+  </figure>
+
+  <figure style="text-align: center;">
+    <img src="https://github.com/user-attachments/assets/d6915d13-c661-42d7-a1b7-c2b0e09b8d43" alt="Pendulum_extrapolation" width="250" />
+  </figure>
+</div>
+
+> Novel generations from unseen intial velocities. **Left:** Velocity towards the right. &ensp; **Center**: Zero Velocity &ensp; **Right:** Velocity towards the left
+
 
 
 ### Divergence Plots
