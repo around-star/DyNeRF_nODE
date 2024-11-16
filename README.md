@@ -76,7 +76,9 @@ We train our model on a few trajectories with varying values of the physical par
   </figure>
 </div>
 
-> Novel generations on unseen damping factors. . **Left:** 0.2 damping factor  &ensp;  **Right:** 0.35 damping factor
+> Novel generations on unseen damping factors.
+>
+> **Left:** 0.2 damping factor  &ensp;  **Right:** 0.35 damping factor
 
 ### Scene 2
 <!-- Friction Ball Bowl -->
@@ -96,7 +98,9 @@ We train our model on a few trajectories with varying values of the physical par
   </figure>
 </div>
 
-> Novel generations on unseen friction values.  **Left:** 0.03 &ensp; **Center:** 0.25  &ensp;  **Right:** 0.35
+> Novel generations on unseen friction values.
+>
+> **Left:** 0.03 &ensp; **Center:** 0.25  &ensp;  **Right:** 0.35
 
 ## Generalizing across different initial conditions
 
@@ -124,7 +128,9 @@ We train our model on a few trajectories with different initial conditions (i.e.
 
 </div>
 
-> Novel generations from unseen starting angles. **Top Left:** -0.03 radians &ensp; **Top Right** 0.4 radians  &ensp;  **Bottom Left:** -0.7 radians &ensp; **Bottom Right:** 0.7 radians
+> Novel generations from unseen starting angles.
+>
+> **Top Left:** -0.03 radians &ensp; **Top Right** 0.4 radians  &ensp;  **Bottom Left:** -0.7 radians &ensp; **Bottom Right:** 0.7 radians
 
  ### Scene 2
 <!-- Generalization Ball Bowl -->
@@ -178,7 +184,9 @@ We train our model on a few trajectories with different initial conditions (i.e.
   </figure>
 </div>
 
-> Novel generations from unseen intial velocities. **Left:** Velocity towards the right. &ensp; **Center**: Zero Velocity &ensp; **Right:** Velocity towards the left
+> Novel generations from unseen intial velocities.
+> 
+> **Left:** Velocity towards the right. &ensp; **Center**: Zero Velocity &ensp; **Right:** Velocity towards the left
 
 
 
