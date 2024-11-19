@@ -1,10 +1,13 @@
 # DyNeRF_nODE
 <!-- Check-->
 
-We tackle the problem of 4D reconstruction and modeling of the underlying dynamics of a scene. We design a novel setup using NeRF and neural ODE. The NeRF learns the spatial information of a scene and the nODE learns the temporal information and the dynamics of the scene. Our setup can not only reconstruct the original scene, but 
-* Extrapolates beyond the scene trajectory
-* Generalizes across different physical parameters (friction) of the scene
-* Generalizes across different initial condition (position, velocity) of the scene
+We tackle the problem of 4D reconstruction and modeling of the underlying dynamics of a scene. We design a novel setup using NeRF and neural ODE. The NeRF learns the spatial information of a scene and the nODE learns the temporal information and the dynamics of the scene. 
+This setup enables:
+- **Reconstruction of the scenes:** Accurately recreating the dynamics of the scenes
+- **Extrapolation of the scenes:** Predicting the evolution of the dynamics beyond the training data.
+- **Generalization to different physical parameters:** For example, varying damping and friction. Trained on sparse values of these parameters, the model can generate novel trajectories for unseen values.
+- **Generalization to different initial conditions:** For example, varying the initial position and velocity of dynamic objects. Trained on sparse values of initial conditions, the model can generate novel trajectories for unseen configurations
+
 
 We curate three deterministic scenes with different number of stable points for our experiments.
 * **Scene1:** Pendulum (1 stable point)
