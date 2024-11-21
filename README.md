@@ -13,7 +13,7 @@ This setup enables:
 We curate three deterministic scenes with different number of stable points for our experiments.
 * **Scene1:** Pendulum (1 stable point)
 * **Scene2:** Ball in a bowl (1 stable point)
-* **Scene3:** Ball in a hill (2 stable points)
+* **Scene3:** Ball rolling down a hill (2 stable points)
 
 ## Single Trajectory Reconstruction + Extrapolation
 
