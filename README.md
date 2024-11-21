@@ -2,7 +2,7 @@
 <!-- Check-->
 *Note: Please wait for few seconds for the videos to appear.*
 
-We tackle the problem of 4D reconstruction and modeling of the underlying dynamics of a scene from a monocular video. We design a novel setup using NeRF and neural ODE. The NeRF learns the spatial information of a scene and the nODE learns the temporal information and the dynamics of the scene. 
+We tackle the problem of 4D reconstruction and modeling of the underlying dynamics of a scene from a monocular video. We design a novel setup using NeRF and neural ODE. The NeRF learns the spatial information of a scene and the nODE learns the temporal information and the physics of the scene. 
 This setup enables:
 - **Reconstruction of the scenes:** Accurately recreating the dynamics of the scenes
 - **Extrapolation of the scenes:** Predicting the evolution of the dynamics beyond the training data.
