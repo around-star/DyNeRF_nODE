@@ -1,4 +1,4 @@
-# DyNeRF_nODE
+# Learning Physics from Visual Observations: NeRF meets Neural ODE for Dynamic Reconstruction
 <!-- Check-->
 *Note: Please wait for few seconds for the videos to appear.*
 
