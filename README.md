@@ -157,7 +157,7 @@ We train our model on a limited set of trajectories with varying initial conditi
   </figure>
 </div>
 
-> Novel generations from unseen initial positions
+> Novel generations from unseen initial positions (zero initial velocity)
 
 ### Scene 3
 <!-- Generalization Ball Hill -->
@@ -172,7 +172,7 @@ We train our model on a limited set of trajectories with varying initial conditi
   </figure>
 </div>
 
-> Novel generations from unseen intial positions
+> Novel generations from unseen intial positions (zero initial velocity)
 
 <div style="display: flex; justify-content: space-between;">
   <figure style="text-align: center;">
@@ -188,7 +188,7 @@ We train our model on a limited set of trajectories with varying initial conditi
   </figure>
 </div>
 
-> Novel generations from unseen intial velocities.
+> Novel generations from unseen intial velocities (fixed initial position).
 > 
 > **Left:** Velocity towards the right. &ensp; **Center**: Zero Velocity &ensp; **Right:** Velocity towards the left
 
