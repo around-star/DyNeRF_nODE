@@ -159,6 +159,26 @@ We train our model on a limited set of trajectories with varying initial conditi
 
 > Novel generations from unseen initial positions (zero initial velocity)
 
+
+<div style="display: flex; justify-content: space-between;">
+  <figure style="text-align: center;">
+    <img src="https://github.com/user-attachments/assets/c8a09dab-603c-432f-a294-2962fee8004a" alt="train_pendulum" width="250" />
+  </figure>
+
+  <figure style="text-align: center;">
+    <img src="https://github.com/user-attachments/assets/f2487939-5098-4b5f-9675-84ef57646a87" alt="Pendulum_extrapolation" width="250" />
+  </figure>
+
+  <figure style="text-align: center;">
+    <img src="https://github.com/user-attachments/assets/4d4cfea6-6401-49f1-b0dc-169cb82b9c45" alt="Pendulum_extrapolation" width="250" />
+  </figure>
+</div>
+
+> Novel generations from unseen intial velocities (fixed initial position).
+> 
+> **Left:** Velocity towards the top. &ensp; **Center**: Zero Velocity &ensp; **Right:** Velocity towards the bottom
+
+
 ### Scene 3
 <!-- Generalization Ball Hill -->
 
