@@ -174,7 +174,7 @@ We train our model on a limited set of trajectories with varying initial conditi
   </figure>
 </div>
 
-> Novel generations from unseen intial velocities (fixed initial position).
+> Novel generations from unseen initial velocities (fixed initial position).
 > 
 > **Left:** Velocity towards the top. &ensp; **Center**: Zero Velocity &ensp; **Right:** Velocity towards the bottom
 
@@ -192,7 +192,7 @@ We train our model on a limited set of trajectories with varying initial conditi
   </figure>
 </div>
 
-> Novel generations from unseen intial positions (zero initial velocity)
+> Novel generations from unseen initial positions (zero initial velocity)
 
 <div style="display: flex; justify-content: space-between;">
   <figure style="text-align: center;">
@@ -208,7 +208,7 @@ We train our model on a limited set of trajectories with varying initial conditi
   </figure>
 </div>
 
-> Novel generations from unseen intial velocities (fixed initial position).
+> Novel generations from unseen initial velocities (fixed initial position).
 > 
 > **Left:** Velocity towards the right. &ensp; **Center**: Zero Velocity &ensp; **Right:** Velocity towards the left
 
